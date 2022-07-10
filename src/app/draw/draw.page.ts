@@ -4,7 +4,7 @@ import SignaturePad from 'signature_pad';
 
 import { Base64ToGallery } from '@ionic-native/base64-to-gallery/ngx';
 
-import { AndroidPermissions } from '@ionic-native/android-permissions/ngx';
+//? import { AndroidPermissions } from '@ionic-native/android-permissions/ngx'; UNUSED
 @Component({
   selector: 'app-draw',
   templateUrl: './draw.page.html',
@@ -20,7 +20,7 @@ export class DrawPage implements OnInit, AfterViewInit {
   constructor(
     private elementRef: ElementRef,
     private base64ToGallery: Base64ToGallery,
-    private androidPermissions: AndroidPermissions
+    //? private androidPermissions: AndroidPermissions UNUSED
   ) { }
 
   ngOnInit(): void {
