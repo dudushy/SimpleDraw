@@ -1,0 +1,7 @@
+{
+  "name": "SimpleDraw",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
