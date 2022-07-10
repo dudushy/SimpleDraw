@@ -26,6 +26,10 @@ ionic cordova plugin add cordova-plugin-android-permissions
 npm install @ionic-native/android-permissions
 ```
 
+```bash
+ionic cordova platform add android
+```
+
 <!-- ```bash
 code
 ``` -->
