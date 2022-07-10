@@ -30,6 +30,14 @@ npm install @ionic-native/android-permissions
 ionic cordova platform add android
 ```
 
+```bash
+cordova clean
+```
+
+```bash
+ionic cordova build android --aot
+```
+
 <!-- ```bash
 code
 ``` -->
